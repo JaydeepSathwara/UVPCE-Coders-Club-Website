@@ -35,10 +35,10 @@ html::-webkit-scrollbar-track{
 html::-webkit-scrollbar-thumb{
     background: linear-gradient(#f1c40f, #f39c12);
 }
-
+/* 
 body{
     height: 300rem;
-}
+} */
 
 .btn{
     padding: .7rem 3rem;
@@ -95,6 +95,28 @@ body{
     padding: 1rem 0;
     width: 70rem;
 }
+/* 
+.home .shape{
+    position: absolute;
+    bottom: -.3rem;
+    left: 0;
+    height: 15rem;
+    width: 100%;
+    background: url(./shape.png);
+    block-size: 100rem 15rem;
+    filter: drop-shadow(0 -.1rem .1rem rgba(0,0,0,.2));
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        background-position-x: 0rem;
+    }
+
+    100%{
+        background-position-x: 100rem;
+    }
+} */
 
 section{
     min-height: 100vh;
@@ -157,6 +179,37 @@ header #menu{
     display: none;
 }
 
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .image{
+    flex: 1 1 40rem;
+}
+
+.about .image img{
+    border-radius: 5rem;
+    height: 65vh;
+    width: 100%;
+}
+
+.about .content{
+    flex: 1 1 40rem;
+}
+
+.about .content h3{
+    font-size: 3.5rem;
+    color: #666;
+}
+
+.about .content p{
+    font-size: 1.5rem;
+    color: #666;
+    padding: 1rem 0;
+}
 /* Media querys */
 
 @media(max-width:768px){
@@ -202,5 +255,11 @@ header #menu{
 
     header .navbar.nav-toggle{
         top:6.4rem;
+    }
+    .home h1{
+        font-size: 4rem;
+    }
+    .home p{
+        width: auto;
     }
 }
