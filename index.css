@@ -22,6 +22,7 @@
 html{
     font-size: 62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar{
@@ -45,7 +46,7 @@ body{
     font-size: 2rem;
     color: #fff;
     background : var(--gradient);
-    border-radius: 5rem;
+    border-radius: 1rem;
     margin-top: 1rem;
     cursor: pointer;
     box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
@@ -70,7 +71,10 @@ body{
     transition: .3s linear;
     left: 120%;
 }
-
+.card,
+.card img{
+    border-radius: 10px;
+}
 .home{
     display: flex;
     align-items: center;

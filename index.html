@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <title>UVPCE Placement Seakers</title>
 </head>
+
 <body>
 
     <header>
@@ -14,56 +17,74 @@
         <a href="#" class="logo"><i class="fas fa-user-graduate">Ganpat UVPCE</i></a>
         <nav class="navbar">
             <ul>
-                <li><a class="active" href="#home">Home</a></li>
-                <li><a href="#material">Course material</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#announcement">Announcement</a></li>
+                <li><a href="#material">Materials</a></li>
             </ul>
         </nav>
 
-        <div id="login" class="fas fa-user-circle"></div>
+        <!-- <div id="login" class="fas fa-user-circle"></div> -->
 
     </header>
 
     <section class="home" id="home">
         <h1>For UVPCE Students</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nesciunt quas. Perferendis cumque eligendi possimus sapiente natus aperiam? Voluptate corporis eius vitae accusamus obcaecati esse tempore doloribus eos laborum quis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nesciunt quas. Perferendis cumque eligendi
+            possimus sapiente natus aperiam? Voluptate corporis eius vitae accusamus obcaecati esse tempore doloribus
+            eos laborum quis.</p>
         <a href="#"><button class="btn">Get Start</button></a>
 
         <div class="shape"></div>
     </section>
 
-    <section class="about" id="about">
-        <div class="image">
-            <img src="./about club.png" alt="">
-        </div>
-        <div class="content">
-            <h3>What We Do!</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsa fugiat ex voluptates obcaecati quas ipsum laudantium sint eum, odit excepturi harum architecto, voluptatum iste impedit sunt repellat neque doloribus?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ipsa fugiat ex voluptates obcaecati quas ipsum laudantium sint eum, odit excepturi harum architecto, voluptatum iste impedit sunt repellat neque doloribus?</p>
+    <section class="cards" id="announcement">
+        <hr>
+        <h1 class="heading" style="text-align: center;">Announcement</h1>
 
-            <a href="#"><button class="btn">Learn More!</button></a>
-        </div>
-
-    </section>
-
-    <section class="announcement">
-        <h1 class="heading">Announcement</h1>
-        <div class="box-contianer">
-            <div class="box">
-                <img src="./about club.png" alt="">
-                <h3 class="time">00:00</h3>
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui blanditiis nostrum a rem itaque adipisci debitis pariatur natus cum nobis cumque molestias eum voluptatum ullam, aperiam consectetur perferendis saepe neque.</p>
-                    <div class="info">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis </p>
-                    </div>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="./about club.png" class="card-img" alt="" >
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h1 class="card-title">Card title</h1>
+                  <p class="card-text"><h2 class="text-muted">is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h2></p>
                 </div>
+              </div>
             </div>
-        </div>
+          </div>
+
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="./about club.png" class="card-img" alt="" >
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h1 class="card-title">Card title</h1>
+                  <p class="card-text"><h2 class="text-muted">is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h2></p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <section class="material" id="material">
+        <hr>
+        <h1 class="heading" style="text-align: center;">Materials</h1>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./Coding img.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h1 class="card-title">Card title</h1>
+              <p class="card-text"><h3 class="text-muted">quick example text to build on the card title and make up the bulk of the card's content.</h3></p>
+              <a href="#" class="btn btn-primary">Link</a>
+            </div>
+          </div>
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="index.js"></script>
 </body>
+
 </html>
 
 <!-- 29:00 -->
